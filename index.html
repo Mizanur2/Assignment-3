@@ -201,7 +201,7 @@
         <!-- message section  -->
 
         <div class="text-center space-y-5 my-10">
-            <h1 class="text-4xl font-extrabold capitalize">contact with us</h1>
+            <h1 class="text-4xl font-extrabold capitalize">Get In Touch</h1>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
                 alteration in some form, by injected humour.</p>
 
@@ -211,47 +211,54 @@
 
         <div class="flex flex-col md:flex-row my-20 lg:flex-row gap-10">
             <div class="flex-1">
-                <div class="grid grid-cols-2 gap-1">
-                    <div class="bg-[#f3f3f3] p-10">
-                        <img class="mx-auto my-5" src="images/location.png" alt="">
-                        <div class="flex flex-col justify-center items-center">
-                            <h1 class="text-2xl font-extrabold">Address</h1>
-                            <p>A108 Adam Street, <br>
-                                New York, NY 535022</p>
+                <div class="border flex flex-col gap-6 p-6 lg:p-12 rounded-lg">
+                    <div class="bg-[#f8fdf0] p-10 rounded-lg">
+                        <img class="my-5" src="images/phone.png" alt="">
+                        <div class="flex flex-col">
+                            <p>Phone Number</p>
+                            <h1 class="text-xl font-extrabold">(+62) 123-321-543</h1>
                         </div>
                     </div>
-                    <div class="bg-[#f3f3f3] p-10">
-                        <img class="mx-auto my-5" src="images/call.png" alt="">
-                        <div class="flex flex-col justify-center items-center">
-                            <h1 class="text-2xl font-extrabold">Call Us</h1>
-                            <p>A108 Adam Street, <br>
-                                New York, NY 535022</p>
+                    <div class="bg-[#fffcef] p-10 rounded-lg">
+                        <img class="my-5" src="images/email.png" alt="">
+                        <div class="flex flex-col">
+                            <p>Email</p>
+                            <h1 class="text-xl font-extrabold">example@gmail.com</h1>
                         </div>
                     </div>
-                    <div class="bg-[#f3f3f3] p-10">
-                        <img class="mx-auto my-5" src="images/email.png" alt="">
-                        <div class="flex flex-col justify-center items-center">
-                            <h1 class="text-2xl font-extrabold">Email Us</h1>
-                            <p>A108 Adam Street, <br>
-                                New York, NY 535022</p>
-                        </div>
-                    </div>
-                    <div class="bg-[#f3f3f3] p-10">
-                        <img class="mx-auto my-5" src="images/time.png" alt="">
-                        <div class="flex flex-col justify-center items-center">
-                            <h1 class="text-2xl font-extrabold">Working Hour</h1>
-                            <p>A108 Adam Street, <br>
-                                New York, NY 535022</p>
+                    <div class="bg-[#eff5fe] p-10 rounded-lg">
+                        <img class="my-5" src="images/location.png" alt="">
+                        <div class="flex flex-col">
+                            <p>Location</p>
+                            <h1 class="text-xl font-extrabold">152/1 Mohakhali Wireless Gate</h1>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="flex-1 space-y-4">
-                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Name">
-                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Email">
-                <input class="block bg-[#f3f3f3] p-3 rounded-lg w-full" type="text" placeholder="Your Password">
-                <textarea class="block bg-[#f3f3f3] rounded-lg w-full" name="" id="" cols="30" rows="9"></textarea>
-                <input class="block bg-[#B68C5A] text-white p-3 rounded-lg w-full" type="submit" value="Send Message"
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                    <label for="">
+                        <span class="font-extrabold">Your Name</span>
+                        <input class="w-full bg-[#f3f3f3] p-3 rounded-lg " type="text" placeholder="Your Name">
+                    </label>
+                    <label for="">
+                        <span class="font-extrabold">Your Email</span>
+                        <input class="w-full bg-[#f3f3f3] p-3 rounded-lg " type="email" placeholder="Your Email">
+                    </label>
+                    <label for="">
+                        <span class="font-extrabold">Subject</span>
+                        <input class="w-full bg-[#f3f3f3] p-3 rounded-lg " type="text" placeholder="Subject">
+                    </label>
+                    <label for="">
+                        <span class="font-extrabold">Your Phone</span>
+                        <input class="w-full bg-[#f3f3f3] p-3 rounded-lg" type="text" placeholder="Phone">
+                    </label>
+                </div>
+
+                <textarea placeholder="Write your message" class="p-3 bg-[#f3f3f3] rounded-lg w-full" name="" id=""
+                    cols="30" rows="22"></textarea>
+                <input class="block bg-[#FF4240] text-white p-3 rounded-lg w-full" type="submit" value="Send Message"
                     placeholder="Your Password">
             </div>
         </div>
