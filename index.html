@@ -15,9 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-
-    <!-- font awesome link  -->
-    <script src="https://kit.fontawesome.com/7cf9557772.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Manrope', sans-serif;
@@ -29,8 +26,48 @@
 
     <header class="mx-5 lg:mx-20 lg:relative">
 
+        <!-- navigation section  -->
+
+        <nav class="my-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <h1 class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img class="lg:mr-6 mr-2" src="Images/search.png" alt="">
+                    <a class="btn bg-[#FF4240] text-white font-extrabold">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
         <!-- banner section  -->
-        <div class="carousel w-full my-20">
+        <div class="carousel w-full my-12">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -500,39 +537,48 @@
     </main>
 
 
-    <footer class="footer py-28 bg-[#111] text-white text-base-content px-5 lg:px-20">
-        <nav>
-            <header class="footer-title">Services</header>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
+    <footer class="footer p-10 bg-[#131318] text-white">
+        <aside>
+            <h1 class="text-3xl font-extrabold">Get In Touch</h1>
+            <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit
+                nullam
+                proin. </p>
+            <div class="flex mt-5">
+                <img class="mr-3" src="Images/rdmail.png" alt="">
+                <p>example@gmail.com</p>
+            </div>
+            <div class="flex">
+                <img class="mr-3" src="Images/rdphone.png" alt="">
+                <p>(+62) 123-321-543</p>
+            </div>
+        </aside>
+        <div class="flex justify-around w-full">
+            <div class="text-center lg:text-start space-y-5">
+                <header class="footer-title">Company</header>
+                <p>About Us</p>
+                <p>Leadership</p>
+                <p>Career</p>
+                <p>News & Article</p>
+                <p>Legal Notice</p>
+            </div>
+            <div class="text-center lg:text-start space-y-5">
+                <header class="footer-title">Support</header>
+                <p>Help Center</p>
+                <p>FAQ</p>
+                <p>Ticket Support</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <nav class="flex justify-center w-full">
+            <div class="text-center lg:text-start space-y-5">
+                <header class="footer-title">Services</header>
+                <p>Academy</p>
+                <p>Group Lesson</p>
+                <p>Private Lesson</p>
+                <p>Hockeys for kids</p>
+                <p>Hockeys for Adult</p>
+            </div>
         </nav>
-        <nav>
-            <header class="footer-title">Company</header>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <header class="footer-title">Legal</header>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </nav>
-        <form>
-            <header class="footer-title">Newsletter</header>
-            <fieldset class="form-control w-80">
-                <label class="label">
-                    <span class="label-text">Enter your email address</span>
-                </label>
-                <div class="join">
-                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
-                    <button class="btn btn-primary join-item">Subscribe</button>
-                </div>
-            </fieldset>
-        </form>
     </footer>
 
 </body>
